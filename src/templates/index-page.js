@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
 import Benefits from '../components/Benefits'
 import ServiceSummary from '../components/Service'
+import { Helmet } from 'react-helmet'
 
 export const IndexPageTemplate = ({
   image,
@@ -18,6 +19,9 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <Helmet>
+    <meta name="keywords" content="web development, webatelier, web atelier, new zealand, christchurch, website, design"/>  
+    </Helmet>
     <div
       className="full-width-image margin-top-0"
       style={{
