@@ -65,8 +65,7 @@ const ServiceSummary = () => (
         gridArea: "desc-1",
       }}
     >
-      We generate ideas to meet all your business needs and create visually
-      stunning renditions of your vision.
+      We create ideas to meet all your business needs, to meet exactly what you vision.
     </p>
     <p
       style={{
@@ -75,8 +74,8 @@ const ServiceSummary = () => (
         gridArea: "desc-2",
       }}
     >
-      We use the most suitable cutting-edge technologies to build your website,
-      with excellent usability no matter the device.
+      We use the most cutting-edge technologies to build your website,
+      with perfect usability for any device.
     </p>
     <p
       style={{

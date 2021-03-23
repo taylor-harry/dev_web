@@ -58,8 +58,8 @@ const Benefits = () => (
         fontFamily: `Arial, Helvetica, sans-serif`,
       }}
     >
-      56% of people stated that they won’t trust a business without a website.
-      Having a good website instantly boosts your credibility as a legitimate
+      Over 50% of people won’t trust a business without a website.
+      Having a crafted website instantly boosts your credibility as a valuable
       business.
     </p>
     <p
@@ -68,9 +68,9 @@ const Benefits = () => (
         fontFamily: `Arial, Helvetica, sans-serif`,
       }}
     >
-      81% of people research a business or service online prior to making a
-      purchase decision. If you don’t have a website, you have no chance at
-      capturing a share of this market.
+      Almost all people research a business online before to making a
+      purchase. If you don’t have a website, you have little chance at
+      capturing a share of the market.
     </p>
     <p
       style={{
@@ -78,8 +78,8 @@ const Benefits = () => (
         fontFamily: `Arial, Helvetica, sans-serif`,
       }}
     >
-      A website shapes the online perception of your business in a way that your
-      social media channels cannot provide.
+      Having a website shapes the online perception of your business in ways that your
+      social media cannot.
     </p>
     
   </div>
