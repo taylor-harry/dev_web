@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import desk from '../img/desk.jpg'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Benefits from '../components/Benefits'
+import ServiceSummary from '../components/Service'
 
 export const IndexPageTemplate = ({
   image,
@@ -19,9 +21,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url(${desk})`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -45,9 +45,10 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            borderRadius: `8px`,
           }}
         >
-          {title}
+          Business slow? Need a boost? 
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -58,9 +59,10 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            borderRadius: `8px`
           }}
         >
-          {subheading}
+          Get a quality website and reap the benefits!
         </h3>
       </div>
     </div>
@@ -72,28 +74,15 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title">Why Web Atelier?</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle" style={{fontSize:`18px`}}>We bring the agility and power of rapid web development to everyday Kiwi businesses looking to modernize and transform.</h3>
                   </div>
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
+
+                <Benefits></Benefits> 
+                <ServiceSummary></ServiceSummary>               
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
