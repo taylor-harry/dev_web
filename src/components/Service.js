@@ -12,6 +12,7 @@ const ServiceSummary = () => (
       textAlign: `center`,
       marginLeft: `auto`,
       marginRight: `auto`,
+      gridGap: `1rem`,
       gridTemplateAreas: `
             ". title ."
             "pic-1 pic-2 pic-3"

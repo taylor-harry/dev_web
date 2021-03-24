@@ -11,6 +11,7 @@ const Benefits = () => (
       textAlign: `center`,
       marginLeft: `auto`,
       marginRight: `auto`,
+      gridGap: `1rem`,
       gridTemplateAreas: `
           "pic-1 pic-2 pic-3"
           "text-1 text-2 text-3"

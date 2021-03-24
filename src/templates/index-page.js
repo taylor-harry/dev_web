@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
             borderRadius: `8px`
           }}
         >
-          Get a QUALITY WEBSITE and see the benefits!
+          Get a quality WEBSITE and see the benefits!
         </h3>
       </div>
     </div>
