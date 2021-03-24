@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
             borderRadius: `8px`
           }}
         >
-          Get a quality website and reap the benefits!
+          Get a QUALITY WEBSITE and see the benefits!
         </h3>
       </div>
     </div>
@@ -81,7 +81,15 @@ export const IndexPageTemplate = ({
                     <h1 className="title">Why Web Atelier?</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle" style={{fontSize:`18px`}}>We bring the agility and power of rapid web development to everyday Kiwi businesses looking to modernize and transform.</h3>
+                    <h3 className="subtitle" style={{fontSize:`18px`}}>
+                    <br/>
+                      Based in Christchurch, we bring quality website development to everyday New Zealand businesses looking to gain customers and beat the competition.
+                      <br/>
+                      <br/>We can help you grow your new or exsisting business at an affordable price.
+                      <br/>
+                      <br/> <a href="/contact">Contact us</a> now and we'll send you a free quote.
+                      </h3>
+                      
                   </div>
                 </div>
 
