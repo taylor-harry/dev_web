@@ -36,12 +36,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        output: "/",
-      }
-    },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
     'gatsby-transformer-sharp',
     {
