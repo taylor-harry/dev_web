@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'WebAtelier',
+    title: 'WebAtelier. Affodable website development',
     siteUrl:"https://www.webatelier.co.nz",
     description:
-      'WebAtelier, Crafting websites',
+      'WebAtelier. Building quality websites at an affordable price. Helping you help grow your business and beat your competitors',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

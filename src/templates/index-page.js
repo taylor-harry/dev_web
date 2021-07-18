@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">Why Web Atelier?</h1>
+                    <h2 className="title">Why Web Atelier?</h2>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle" style={{fontSize:`18px`}}>
