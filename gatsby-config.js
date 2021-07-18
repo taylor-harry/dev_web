@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'webAtelier',
+    title: 'WebAtelier',
+    siteUrl:"https://www.webatelier.co.nz",
     description:
-      'webAtelier business website',
+      'WebAtelier, Crafting websites',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -35,6 +36,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: "/",
+      }
+    },
+    'gatsby-plugin-robots-txt',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
