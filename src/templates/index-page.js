@@ -78,23 +78,46 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h2 className="title">Why Web Atelier?</h2>
+                    <h2 className="title">Why WebAtelier?</h2>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle" style={{fontSize:`18px`}}>
                     <br/>
-                      Based in Christchurch, we bring quality website development to everyday New Zealand businesses looking to gain customers and beat the competition.
+                      Based in Christchurch, WebAtelier bring quality website development to everyday New Zealand businesses looking to gain customers and beat the competition.
                       <br/>
-                      <br/>We can help you grow your new or exsisting business at an affordable price.
+                      <br/>We can help you boost your new or exsisting business at an affordable price.
                       <br/>
                       <br/> <a href="/contact">Contact us</a> now and we'll send you a free quote.
+                      <br/>
                       </h3>
                       
                   </div>
                 </div>
-
-                <Benefits></Benefits> 
-                <ServiceSummary></ServiceSummary>               
+                <ServiceSummary></ServiceSummary>  
+                <div className="content">
+                  <div className="tile">
+                    <h2 className="title">Do you need a new website?</h2>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle" style={{fontSize:`18px`}}>
+                    <br/>
+                    The quality of the website often affects the purchasing decisions and exchange, independent of the sector in which you are based. Your website represents the legitimacy of your business. Without a website, people may question the integrity of your business and end up moving to one of your many competitors.  Having a quality website is the best way to make a great first impression and gives peoples the confidence that they are dealing with a real business. 
+                    <br/>
+                    <br/>
+                    <a href="/about">WebAtelier</a> can design and develop a website that allows your business to gain recognition and successfully compete in today's market. 
+                      <br/>
+                      <br/>When your business shuts for the day things slow down. Your potential customers have no way of discovering your business, you can’t take calls and are unlikely to reply to their questions. However, a website promotes you business 24 hours a day 7 days a week. It provides valuable information about your business, it introduces your products and services, and it can help answer frequently asked questions. 
+                      <br/>
+                      <br/>
+                      <a href="/about">WebAtelier</a> can craft a website that proudly represents you business all hours of the day, both within New Zealand and abroad. We can tailor it to you and your industry needs, displaying vital information in an aesthetically pleasing way. 
+                      <br/>
+                      <br/> Websites have become essential part of the business world today. WebAtelier strongly recommends having one crafted if you haven’t done so already. You can grow and improve it over time, but the key is to <a href="/contact">start</a>. 
+    
+                      </h3>
+                      
+                  </div>
+                </div>
+                <Benefits></Benefits>              
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
